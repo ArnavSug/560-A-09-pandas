@@ -2,4 +2,5 @@
 
 roster = ["High", "Ryan", "Davis"]
 
-print(roster)
+for players in roster:
+    print(players)
