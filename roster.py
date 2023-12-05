@@ -1,6 +1,7 @@
 # https://goheels.com/sports/mens-basketball/rosterU
 
-roster = ["High", "Ryan", "Davis"]
+import pandas as pd
 
-for players in roster:
-    print(players)
+roster = ["High", "Ryan", "Davis"]
+data = pd.DataFrame(roster)
+print(data)
